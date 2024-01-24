@@ -1,0 +1,25 @@
+.navbar-area {
+  .gradient-border {
+    // border: 0px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  }
+  .custom-background {
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+    &:hover {
+      background: linear-gradient(to left, #d53a9d, #743ad5);
+    }
+  }
+  .menu-wrapper {
+    .text-gray-700 {
+      color: #232e52;
+      &:hover {
+        color: #0e7490;
+      }
+    }
+    // .menu-item {
+    //   color: #fff !important;
+    // }
+  }
+}
