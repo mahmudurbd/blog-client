@@ -8,8 +8,8 @@ import "./Header.scss";
 const Header = () => {
   const path = useLocation().pathname;
   return (
-    <>
-      <Navbar className="navbar-area pt-4" style={{ color: "#232e52" }}>
+    <div className="nav-wrapper">
+      <Navbar className="navbar-area" style={{ color: "#232e52" }}>
         <Link
           to="/"
           className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white uppercase"
@@ -76,7 +76,7 @@ const Header = () => {
           </Link>
         </Navbar.Collapse>
       </Navbar>
-    </>
+    </div>
   );
 };
 

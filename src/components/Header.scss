@@ -1,4 +1,10 @@
-.navbar-area {
+.nav-wrapper {
+  width: 95%;
+  margin: 0 auto;
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .gradient-border {
     // border: 0px solid;
     border-image-slice: 1;
@@ -18,8 +24,14 @@
         color: #0e7490;
       }
     }
-    // .menu-item {
-    //   color: #fff !important;
-    // }
+    .menu-item {
+      text-transform: uppercase;
+    }
   }
 }
+
+// @media only screen and (max-width: 768px) {
+//   .navbar-area {
+//     padding: 20px 10px !important;
+//   }
+// }

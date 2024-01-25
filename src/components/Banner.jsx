@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="banner-area">
       <h2>👋 HELLO</h2>
-      <h1 className="text-5xl font-extrabold">
+      <h1 className=" text-3xl md:text-5xl font-extrabold">
         Insights about my personal and work life, and the in-betweens
       </h1>
     </div>
